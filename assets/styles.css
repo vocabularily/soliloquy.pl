@@ -89,7 +89,6 @@ strong { font-weight: 700; }
   transition: background-color .15s, color .15s;
 }
 .nav-links a:hover { color: var(--accent-ink); background: var(--accent-wash); }
-.nav-cta { display: flex; align-items: center; gap: 14px; }
 
 /* ---------------- Buttons ---------------- */
 
@@ -105,7 +104,6 @@ strong { font-weight: 700; }
 .btn-ghost:hover { border-color: var(--accent); color: var(--accent-ink); transform: translateY(-2px); }
 .btn-on-dark { background: var(--accent); color: #0B1120; }
 .btn-on-dark:hover { background: #8AA8FA; transform: translateY(-2px); }
-.btn-sm { padding: 10px 18px; font-size: 15px; }
 
 .store-row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
 /* The badge art is a 135x40 SVG that already draws its own rounded corners
@@ -518,10 +516,10 @@ footer.site {
 }
 
 @media (max-width: 980px) {
-  /* the nav stands up into two rows here, so the anchor offset has to grow with it.
-     124 clears the tallest nav this layout produces (the download button plus the
-     swipe strip), so an anchor never lands under the bar. */
-  html { scroll-padding-top: 124px; }
+  /* the nav stands up into two rows here, brand on top and the swipe strip below,
+     so the anchor offset has to grow with it. 112 clears that nav, so an anchor
+     never lands under the bar. */
+  html { scroll-padding-top: 112px; }
   .hero-grid { grid-template-columns: 1fr; gap: 44px; }
   .hero { padding: 48px 0 64px; }
   .hero h1 { max-width: 20ch; line-height: 1.1; }
@@ -599,11 +597,9 @@ footer.site {
 @media (max-width: 520px) {
   body { font-size: 16.5px; }
   .wrap { padding: 0 18px; }
-  /* a two row nav is tall enough already, so the download button drops to the
-     height of the wordmark and both rows keep a small, even breath above and below */
-  html { scroll-padding-top: 104px; }
+  /* the nav is two rows, brand then swipe strip, so anchors need to clear both */
+  html { scroll-padding-top: 112px; }
   .nav-inner { padding-top: 6px; padding-bottom: 6px; }
-  .nav-cta .btn-sm { padding: 6px 14px; font-size: 14.5px; }
   .nav-links a { padding: 8px 12px; font-size: 14.5px; }
   /* the swipe strip reaches to the screen edge, so its negative margin has to
      track the wrap padding, which drops from 24px to 18px right here */
