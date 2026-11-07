@@ -90,8 +90,6 @@ strong { font-weight: 700; }
 }
 .nav-links a:hover { color: var(--accent-ink); background: var(--accent-wash); }
 .nav-cta { display: flex; align-items: center; gap: 14px; }
-.nav-handle { font-size: 14px; font-weight: 500; color: var(--muted-ink); }
-.nav-handle:hover { color: var(--accent-ink); }
 
 /* ---------------- Buttons ---------------- */
 
@@ -607,7 +605,6 @@ footer.site {
   .nav-inner { padding-top: 6px; padding-bottom: 6px; }
   .nav-cta .btn-sm { padding: 6px 14px; font-size: 14.5px; }
   .nav-links a { padding: 8px 12px; font-size: 14.5px; }
-  .nav-handle { display: none; }
   /* the swipe strip reaches to the screen edge, so its negative margin has to
      track the wrap padding, which drops from 24px to 18px right here */
   .nav-links { margin: 0 -18px; padding: 0 18px 2px; }
