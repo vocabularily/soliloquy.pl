@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Blog Soliloquy</title>
+    <link>https://soliloquy.pl/blog/</link>
+    <description>Teksty o mówieniu po angielsku, metodzie treningu i codziennej praktyce z AI. Bez obietnic płynności w 3 miesiące, bez cen.</description>
+    <language>pl</language>
+    <atom:link href="https://soliloquy.pl/blog/index.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Od czego zacząć naukę języka: produkcja, poprawka, powtórki</title>
+      <link>https://soliloquy.pl/blog/najlepsza-strategia-nauki-jezykow-dla-poczatkujacych/</link>
+      <guid isPermaLink="true">https://soliloquy.pl/blog/najlepsza-strategia-nauki-jezykow-dla-poczatkujacych/</guid>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <description>Wiele porad dla początkujących to lista aplikacji i książek. Lepsza strategia to mówić, dostawać konkretne poprawki i powtarzać je w odpowiednim momencie.</description>
+      <dc:creator>Sławomir Onyszko</dc:creator>
+    </item>
+    <item>
+      <title>Jak zacząć mówić po angielsku bez publiczności</title>
+      <link>https://soliloquy.pl/blog/jak-zaczac-mowic-w-obcym-jezyku-od-pierwszego-dnia/</link>
+      <guid isPermaLink="true">https://soliloquy.pl/blog/jak-zaczac-mowic-w-obcym-jezyku-od-pierwszego-dnia/</guid>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <description>Pierwsza sesja mówienia nie potrzebuje publiczności ani idealnej gramatyki. Oto mały rytm, który możesz zrobić sam, dziś, w około 15 minut.</description>
+      <dc:creator>Sławomir Onyszko</dc:creator>
+    </item>
+    <item>
+      <title>Jak uczyć się słów, żeby zostały w głowie</title>
+      <link>https://soliloquy.pl/blog/jak-uczyc-sie-slow-szybciej/</link>
+      <guid isPermaLink="true">https://soliloquy.pl/blog/jak-uczyc-sie-slow-szybciej/</guid>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <description>Więcej słów nie znaczy więcej mówienia. Zobacz, jak uczyć się słów w kontekście, używać ich we własnych zdaniach i powtarzać w odpowiednim momencie.</description>
+      <dc:creator>Sławomir Onyszko</dc:creator>
+    </item>
+    <item>
+      <title>Jak zbudować nawyk mówienia, który przetrwa zajęty tydzień</title>
+      <link>https://soliloquy.pl/blog/tworzenie-nawyku-uczenia-sie-jezykow/</link>
+      <guid isPermaLink="true">https://soliloquy.pl/blog/tworzenie-nawyku-uczenia-sie-jezykow/</guid>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <description>Codzienny nawyk językowy nie zależy od motywacji. Zależy od małego rytmu, który powtórzysz nawet w zajęty dzień. Zobacz, jak go zbudować.</description>
+      <dc:creator>Sławomir Onyszko</dc:creator>
+    </item>
+    <item>
+      <title>Rok codziennej praktyki mówienia: co naprawdę się zmienia</title>
+      <link>https://soliloquy.pl/blog/nauka-jezyka-obcego-w-rok/</link>
+      <guid isPermaLink="true">https://soliloquy.pl/blog/nauka-jezyka-obcego-w-rok/</guid>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      <description>Rok codziennej praktyki może zmienić twoje mówienie, ale nikt nie obieca ci poziomu w konkretnym terminie. Zobacz, co naprawdę się zmienia i czego potrzeba.</description>
+      <dc:creator>Sławomir Onyszko</dc:creator>
+    </item>
+  </channel>
+</rss>
